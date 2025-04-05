@@ -1,0 +1,39 @@
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.portfolio-item {
+  margin: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-image {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.portfolio-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.portfolio-link:hover {
+  text-decoration: underline;
+}
